@@ -19,6 +19,10 @@ def get_historic_states_data():
 
     buf = io.StringIO(r.text)
     try:
-        return pd.read_csv(buf)
+        df = pd.read_csv(buf)
     finally:
         buf.close()
+
+    df["date"] = pd.to_datetime(df["date"])
+
+    return df
