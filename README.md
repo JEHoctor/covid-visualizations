@@ -1,6 +1,15 @@
 # covid-visualizations
 This is an exploration of data available from the [Covid Act Now API](https://apidocs.covidactnow.org/).
 
+## Environment
+
+Run this to build and enter the environment for this project:
+
+```bash
+$ make init
+$ source venv/bin/activate
+```
+
 ## API Key
 
 After aquiring an API key as described on the Covid Act Now page, store it in an environment variable as shown below.
