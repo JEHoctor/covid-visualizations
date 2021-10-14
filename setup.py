@@ -7,5 +7,8 @@ setup(
     install_requires=[
         "black",
         "flake8",
+        "pandas",
+        "pytest",
+        "requests",
     ],
 )

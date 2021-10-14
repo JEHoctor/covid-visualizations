@@ -8,5 +8,8 @@ init:
 lint:
 	flake8 covid
 
+test: lint
+	pytest -vv tests/covid
+
 format:
-	@echo not implemented
+	black covid
