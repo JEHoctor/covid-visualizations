@@ -7,8 +7,10 @@ setup(
     install_requires=[
         "black",
         "flake8",
+        "jupyter",
         "pandas",
         "pytest",
         "requests",
+        "seaborn",
     ],
 )
