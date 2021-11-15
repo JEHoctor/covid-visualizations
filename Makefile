@@ -1,4 +1,4 @@
-.PHONY: init lint format
+.PHONY: init lint test format
 
 
 init:
